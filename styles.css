@@ -1,11 +1,14 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', sans-serif;
-    background-color: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
+    /*
+    SEE #header, THESE HAVE BEEN FOLDED INTO THAT ID
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    */
 }
 
 #profile-image {
@@ -62,4 +65,30 @@ h1, h2, h3, h4, p {
 
 #gift-img-blush:hover {
     background-image: url(images/blush.gif);
+}
+
+#gift-img-cool:hover {
+    background-image: url(images/cool.gif);
+}
+
+#gift-img-genius:hover {
+    background-image: url(images/genius.gif);
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(images/cheers.gif);
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
 }
